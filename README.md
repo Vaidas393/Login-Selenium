@@ -20,6 +20,6 @@ I prefer Eclipse IDE so example is done using Eclipse
 - Download folder or clone using GIT
 - Import Maven project in Eclipse
 - Run ```testng.xml``` file to start test. (Run As TestNG Suite)
-- Tutorial: https://vimeo.com/614728596
+- Tutorial: https://vimeo.com/614728596 (tutorial from different test suite, but steps are exactly the same)
 
 ### Authors: [Vaidas Pocius]( https://github.com/Vaidas393)
