@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-18T15:13:39 EEST" name="Reiz" finished-at="2022-04-18T15:13:51 EEST" duration-ms="12403">
+    <groups>
+    </groups>
+    <test started-at="2022-04-18T15:13:39 EEST" name="Tests" finished-at="2022-04-18T15:13:51 EEST" duration-ms="12403">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.LoginTests@4738a206]" started-at="2022-04-18T15:13:39 EEST" name="beforeClass" finished-at="2022-04-18T15:13:42 EEST" duration-ms="2741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="WrongDetails()[pri:1, instance:tests.LoginTests@4738a206]" started-at="2022-04-18T15:13:42 EEST" name="WrongDetails" finished-at="2022-04-18T15:13:46 EEST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongDetails -->
+        <test-method signature="WrongEmail()[pri:2, instance:tests.LoginTests@4738a206]" started-at="2022-04-18T15:13:46 EEST" name="WrongEmail" finished-at="2022-04-18T15:13:47 EEST" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongEmail -->
+        <test-method signature="WrongPassword()[pri:3, instance:tests.LoginTests@4738a206]" started-at="2022-04-18T15:13:47 EEST" name="WrongPassword" finished-at="2022-04-18T15:13:48 EEST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongPassword -->
+        <test-method signature="SuccessfulLogin()[pri:4, instance:tests.LoginTests@4738a206]" started-at="2022-04-18T15:13:48 EEST" name="SuccessfulLogin" finished-at="2022-04-18T15:13:51 EEST" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulLogin -->
+      </class> <!-- tests.LoginTests -->
+    </test> <!-- Tests -->
+  </suite> <!-- Reiz -->
+</testng-results>

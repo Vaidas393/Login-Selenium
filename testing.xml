@@ -1,0 +1,7 @@
+<suite name="Reiz" parallel="false">
+  <test name="Tests">
+    <classes>
+      <class name="tests.LoginTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
