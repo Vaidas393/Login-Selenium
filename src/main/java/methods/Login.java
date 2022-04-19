@@ -7,13 +7,13 @@ import org.openqa.selenium.support.FindBy;
 
 public class Login extends Driver{
 
-	@FindBy(xpath="/html/body/div[2]/form/input[1]")
+    @FindBy(xpath="/html/body/div[2]/form/input[1]")
     private WebElement email;
 	
-	@FindBy(xpath="/html/body/div[2]/form/input[2]")
+    @FindBy(xpath="/html/body/div[2]/form/input[2]")
     private WebElement password;
 	
-	@FindBy(xpath="/html/body/div[2]/form/input[3]")
+    @FindBy(xpath="/html/body/div[2]/form/input[3]")
     private WebElement login;
 	
 	public Login(WebDriver driver) {
