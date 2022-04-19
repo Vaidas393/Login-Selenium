@@ -18,28 +18,28 @@ public class LoginTests {
 	public void WrongDetails() throws InterruptedException {
 	login = new Login(driver);
 	login.loginPage("a.pocius@yahoo.com", "123456");
-    Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[2]/form/p[2]")).getText(), "Wrong email"); 
+    	Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[2]/form/p[2]")).getText(), "Wrong email"); 
 	}
 	
 	@Test(priority=2)
 	public void WrongEmail() throws InterruptedException {
 	login = new Login(driver);
 	login.loginPage("a.pocius@yahoo.com", "Labas123");
-    Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[2]/form/p[2]")).getText(), "Wrong email"); 
+    	Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[2]/form/p[2]")).getText(), "Wrong email"); 
 	}
 	
 	@Test(priority=3)
 	public void WrongPassword() throws InterruptedException {
 	login = new Login(driver);
 	login.loginPage("vaidas.pocius@yahoo.com", "123456");
-    Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "Wrong password"); 
+    	Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "Wrong password"); 
 	}
 	
 	@Test(priority=4)
 	public void SuccessfulLogin() throws InterruptedException {
 	login = new Login(driver);
 	login.loginPage("vaidas.pocius@yahoo.com", "Labas123");
-    Assert.assertEquals(driver.findElement(By.tagName("h1")).getText(), "Hello vaidas.pocius@yahoo.com"); 
+    	Assert.assertEquals(driver.findElement(By.tagName("h1")).getText(), "Hello vaidas.pocius@yahoo.com"); 
 	}
 
 	@BeforeClass
